@@ -1,0 +1,10 @@
+Github Desktop can be on MAC and Windows but Currently doesn't work on linux.
+Github can also be used in the terminal instead of the app.
+Anyone from around the world can fork and change your code but you have to accept the change everytime they commmit it.
+
+Terms:
+    Commit/Summary - This is how you get ready to push your changes to the cloud.
+    Push - Sends all your commited changes to the cloud.
+    Pull - Takes all the changes from the cloud and edits your code to match the changes.
+    Fetch - Will get any changes from the cloud but won't pull or push.
+    Fork - Creating a copy of the program that you can send to the owner of the repository for any changes you make.
