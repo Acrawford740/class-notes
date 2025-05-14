@@ -1,0 +1,17 @@
+??  Muilti Threading
+func exmaple(peramiter) {
+    fmt.Println(peramiter)
+    time.sleep(2 * time.Second)
+}
+
+go exmaple(argument1)
+exmaple(argument2)
+
+output: argument2
+        argument1 (At the same time as argument2)
+?? Will Run many things at the same time instead of waiting for the first one to finish
+
+?? Time
+time.Sleep(1 *time.Microsecond) -- waits one millisecond
+time.Sleep(1 *time.Second) -- waits one second
+time.Sleep(1 *time.Minute) -- waits one Minute
