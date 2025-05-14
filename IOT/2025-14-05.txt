@@ -1,0 +1,1 @@
+you convert the binary of an led chart to hex decimal when writng code
