@@ -1,4 +1,4 @@
-Be careful when droping databases and tables they will not ask if you are sure so make sure you have backups and your code is right before running it.
+Be careful when droping databases and tables they will not ask if you are sure so make sure you have backups and your code is right before running it.  
 
 Terms:
     CREATE TABLE - creates a table but you have to set the columns and types
@@ -6,3 +6,20 @@ Terms:
     DROP TABLE - deletes the table but keeps uniqueness
     DROP DATABASE - fully deletes a database DOESN'T ask for verification
     CREATE DATABASE/SCHEMA - creates a blank database
+    ALTER TABLE - lets you alter the columns inside of the table
+    DROP COLUMN - deletes the table
+    MODIFY/ALTER COLUMN - lets you change the datatype of columns
+    ADD COLUMN - creates a new column
+    RENAME COLUMN - rename an exisiting column
+    cash - putting something in memory to make it faster to grab
+    CONSTARINT - creates a new constraint
+    DROP INDEX - drops a constraint
+    Constraint - lets you limit what can be put in a column
+        NOT NULL - the record cannot be empty
+        UNIQUE - it can't match any other records in the column, it is put at the end
+        PRIMARY KEY - combines NOT NULL and UNIQUE the main column of the table, has to be at the end
+        FOREIGN KEY - prevents actions to destroy links between tables, has to be at the end and refrence where it is in the other table
+        CHECK - it checks if the data matches the check
+        DEFAULT - sets a default value for the column
+        CREATE INDEX - makes it faster to search through data
+    
