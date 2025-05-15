@@ -1,4 +1,4 @@
-Be careful when droping databases and tables they will not ask if you are sure so make sure you have backups and your code is right before running it.  
+Be careful when droping databases and tables they will not ask if you are sure so make sure you have backups and your code is right before running it.
 
 Terms:
     CREATE TABLE - creates a table but you have to set the columns and types
