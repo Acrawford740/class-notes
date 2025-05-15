@@ -1,0 +1,8 @@
+Be careful when droping databases and tables they will not ask if you are sure so make sure you have backups and your code is right before running it.
+
+Terms:
+    CREATE TABLE - creates a table but you have to set the columns and types
+    TRUNCATE - a delete that resets the uniqueness
+    DROP TABLE - deletes the table but keeps uniqueness
+    DROP DATABASE - fully deletes a database DOESN'T ask for verification
+    CREATE DATABASE/SCHEMA - creates a blank database
