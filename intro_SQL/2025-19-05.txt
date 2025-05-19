@@ -1,0 +1,49 @@
+Ease of use and security is a fine balance and extremly important in tech.
+
+terms:
+    CREATE INDEX name ON table - this will make an index named name on the table table
+    DROP INDEX - you need to alter a table in order to delete the database
+    ETL - Extract Transform Load, extracts data does file transforing and then loading it into a server
+    AUTO INCREMENT - will automatically incress the int by a default of one or you can increase it
+    Federated Databse - database of a database
+    Sharding - Sharding is the process of blasting data usually to a dih
+    CREATE VIEW - usually used to create reports or combinations of tables
+
+String Data Types:
+    CHAR(size) - charcters deafault is 1
+    VARCHAR(size) - characters chanegs size accordingly
+    BINARY(size) - binary string default is 1
+    VARBINARY(size) - binary string that changes accordingly
+    TINYBLOB - Binary Large OBjects max size of 255 bytes
+    TINYTEXT - Strign with a max length of 255 Characters
+    TEXT(size) - string wiht a max size of 65,535 bytes
+    BLOB(size) - Binary Large OBjects holds up to 65,535 bytes
+    MEDIUMTEXT - string with a maximun lenght of 16,777,215 charcters
+    MEDIUMBLOB - Binary Large OBjects hold up to 16,777,215 bytes
+    LONGTEXT - string maximun length of 4,294,967,295 characters
+    LONGBLOB - Binary Large OBject holds up to 4,294,967,295 bytes
+    ENUM(val1, val2, val3, ...) - chooses a string from a list of possible values can have 65,535 possible values
+    SET(val1, val2, val3, ...) - chooses a sring
+
+Int Data Types:
+    BIT(size) - 1-64 default is 1
+    TINYINT(size) -128 to 127 unassigned 0 to 255
+    BOOL - 0=false everything=true
+    BOOLEAN - equal to BOOL
+    SMALLINT
+    MEDIUMINT
+    INT(size)
+    INTEGER(size)
+    BIGINT(size)
+    FLOAT(size, d) - setting how many numbers can be after the decimal point
+    DOUBLE(size, d)
+    DOUBLE PRECISION(size, d)
+    DECIMAL(size, d)
+    DEC(size, d)
+
+Date Data Type:
+    DATE
+    DATETYPE(fsp)
+    TIMESTAMP(fsp)
+    TIME(fsp)
+    YEAR
