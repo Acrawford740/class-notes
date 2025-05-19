@@ -1,0 +1,2 @@
+Git is a system to view previous versions and what has been modified and it tracks who changed what.  Github is what lets you connect it to the cloud.
+You can send people the number of the history so they can view it before the changes were made
